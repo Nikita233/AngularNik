@@ -1,7 +1,9 @@
-<div *ngFor='let user' style="text-align: center;">
-<h2>{{user.name }} -{{user.id}}</h2>
-
-
+<div *ngFor='let user of users' style="text-align: center;">
+  <h2>{{user.name }} -{{user.id}} - {{user.short_name}}</h2>
 </div>
+
+
+
+
 
 <router-outlet></router-outlet>
