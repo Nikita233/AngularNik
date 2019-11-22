@@ -10,6 +10,8 @@ export class DataService {
   constructor(private _http: HttpClient) {
   }
 
+  
+
   getUsers() {
     return this._http.get<PaginatedResponseInterface<User>>(this.apiUrl);
   }
