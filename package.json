@@ -1,0 +1,24 @@
+{
+  "name": "angularnik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node": "^13.1.0",
+    "sass-mq": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikita233/AngularNik.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikita233/AngularNik/issues"
+  },
+  "homepage": "https://github.com/Nikita233/AngularNik#readme"
+}
